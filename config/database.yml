@@ -13,6 +13,7 @@
 # gem 'pg'
 #
 # username and password are not needed since we are using the default user and password for this computer.
+# run 'rake db:create
 development:
   adapter: postgresql
   encoding: unicode
