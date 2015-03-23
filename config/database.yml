@@ -17,7 +17,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: epic_slideshow_development
+  database: go_rails_development
   pool: 5
   # username: go_rails
   # password:
@@ -43,7 +43,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: epic_slideshow_test
+  database: go_rails_test
   pool: 5
   # username: epic_slideshow
   # password:
@@ -51,7 +51,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: epic_slideshow_production
+  database: go_rails_production
   pool: 5
   # username: go_rails
   # password:
