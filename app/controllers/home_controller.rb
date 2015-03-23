@@ -5,4 +5,9 @@ class HomeController < ApplicationController
       @total_slides = @slides.length
       json_slides = @slides
   end
+  
+  def segundo
+    @slide = Slide.find(params[:id])
+    render :json => @slide
+  end
 end
