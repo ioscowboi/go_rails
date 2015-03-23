@@ -7,6 +7,9 @@ class HomeController < ApplicationController
   end
   
   def segundo
+    if params[:id] == 0
+      redirect ('/')
+    end
     @slide = Slide.find(params[:id])
     render :json => @slide
   end
