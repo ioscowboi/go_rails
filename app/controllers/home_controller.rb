@@ -13,4 +13,5 @@ class HomeController < ApplicationController
     @slide = Slide.find(params[:id])
     render :json => @slide
   end
+  
 end
